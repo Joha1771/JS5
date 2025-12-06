@@ -436,3 +436,148 @@
 //   break;
 // }
 
+// 7
+
+// while (true) {
+
+//   let birinchi2 = prompt("1–4 oralig‘ida son kiriting"
+//     +"kilogramm"
+//     +"milligram"
+//     +"gramm"
+//     +"tonna"
+//     +"sentner");
+//   if (birinchi2 === null) {
+//     alert("Bekor qilindi");
+//     break;
+//   }
+
+//   let ikkinchi2 = prompt("hohlagan butun raqamingizni kiriting");
+//   if (ikkinchi2 === null) {
+//     alert("Bekor qilindi");
+//     break;
+//   }
+//     if (isNaN(birinchi2) || isNaN(ikkinchi2)) {
+//     alert("Raqam emas! Qayta urinib ko‘ring.");
+//     continue;
+//   }
+  
+//   let natija2;
+
+//   let kilogramm = 1;
+//   let milligram =1 / 1000000;
+//   let gramm = 1 / 1000;
+//   let tonna = 1000;
+//   let sentner = 100;
+
+
+//     switch (birinchi2) {
+//     case "1":
+//       natija2 = kilogramm * ikkinchi2
+//       break;
+
+//     case "2":
+//       natija2 = milligram * ikkinchi2;
+//       break;
+
+//     case "3":
+//       natija2 = gramm * ikkinchi2;
+//       break;
+
+//     case "4":
+//       natija2 = tonna * ikkinchi2;
+//       break;
+
+//     case "5":
+//       natija2 = sentner * ikkinchi2;
+//       break;
+
+//     default:
+//       alert("1–4 oralig‘ida son kiriting");
+//       continue;
+//   }
+
+//   alert("Natija: " + natija2 + " kg");
+//   break;
+// }
+
+
+// 8
+
+
+// let D = +prompt("Kunni kiriting");
+// let M = +prompt("Oyni kiriting");
+
+// let days = 0;
+
+// switch (M) {
+//   case 12:
+//     days += 30;
+//   case 11:
+//     days += 31;
+//   case 10:
+//     days += 30;
+//   case 9:
+//     days += 31;
+//   case 8:
+//     days += 31;
+//   case 7:
+//     days += 30;
+//   case 6:
+//     days += 31;
+//   case 5:
+//     days += 30;
+//   case 4:
+//     days += 31;
+//   case 3:
+//     days += 28;
+//   case 2:
+//     days += 31;
+//   case 1:
+//     break;
+//   default:
+//     alert("Xato oy!");
+// }
+
+// days += D;
+
+// alert("Yil boshidan beri: " + days + " kun");
+
+
+// let D = +prompt("Kunni kiriting");
+// let M = +prompt("Oyni kiriting");
+
+// let days = 0;
+
+// switch (M) {
+//   case 12:
+//     days += 30;
+//   case 11:
+//     days += 31;
+//   case 10:
+//     days += 30;
+//   case 9:
+//     days += 31;
+//   case 8:
+//     days += 31;
+//   case 7:
+//     days += 30;
+//   case 6:
+//     days += 31;
+//   case 5:
+//     days += 30;
+//   case 4:
+//     days += 31;
+//   case 3:
+//     days += 28;
+//   case 2:
+//     days += 31;
+//   case 1:
+//     break;
+//   default:
+//     alert("Xato oy!");
+// }
+
+// days += D + 1;
+
+// alert("Yil boshidan beri: " + days + " kun");
+
