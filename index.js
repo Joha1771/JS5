@@ -581,3 +581,152 @@
 
 // alert("Yil boshidan beri: " + days + " kun");
 
+
+
+// While
+
+// 1
+
+// // While1
+// let A = parseInt(prompt("A ="));
+// let B = parseInt(prompt("B ="));
+// let qoldiq = A;
+// while(qoldiq >= B){
+//     qoldiq -= B;
+// }
+// console.log(qoldiq);
+
+// // While2
+// let A1 = parseInt(prompt("A1 ="));
+// let B1 = parseInt(prompt("B1 ="));
+// let soni = 0;
+// let qoldiq1 = A1;
+// while(qoldiq1 >= B1){
+//     qoldiq1 -= B1;
+//     soni += 1;
+// }
+// console.log(soni);
+
+// // While3
+// let N = parseInt(prompt("N ="));
+// let K = parseInt(prompt("K ="));
+// let butun = 0;
+// let qoldiq2 = N;
+// while(qoldiq2 >= K){
+//     qoldiq2 -= K;
+//     butun += 1;
+// }
+// console.log("Butun qism:", butun);
+// console.log("Qoldiq:", qoldiq2);
+
+// // While4
+// let n1 = parseInt(prompt("n1 ="));
+// let daraja = 1;
+// while(daraja < n1){
+//     daraja = daraja + daraja + daraja;
+// }
+// if(daraja === n1){
+//     console.log("3 - ning darajasi");
+// } else {
+//     console.log("3 - ning darajasi emas");
+// }
+
+// // While5
+// let n2 = parseInt(prompt("n2 ="));
+// let k1 = 0;
+// let daraja1 = 1;
+// while(daraja1 < n2){
+//     daraja1 = daraja1 + daraja1;
+//     k1 += 1;
+// }
+// console.log(k1);
+
+// // While6
+// let n3 = parseInt(prompt("n3 ="));
+// let faktorial = 1;
+// let i = n3;
+// while(i > 0){
+//     faktorial *= i;
+//     i -= 2;
+// }
+// console.log(faktorial);
+
+// // While7
+// let n4 = parseInt(prompt("n4 ="));
+// let k2 = 1;
+// while(k2 * k2 <= n4){
+//     k2 += 1;
+// }
+// console.log(k2);
+
+// // While8
+// let n5 = parseInt(prompt("n5 ="));
+// let k3 = 1;
+// while((k3 + 1) * (k3 + 1) <= n5){
+//     k3 += 1;
+// }
+// console.log(k3);
+
+// // While9
+// let n6 = parseInt(prompt("n6 ="));
+// let k4 = 0;
+// let daraja2 = 1;
+// while(daraja2 <= n6){
+//     daraja2 *= 3;
+//     k4 += 1;
+// }
+// console.log(k4);
+
+// // While10
+// let n7 = parseInt(prompt("n7 ="));
+// let k5 = 0;
+// let daraja3 = 1;
+// while(daraja3 * 3 <= n7){
+//     daraja3 *= 3;
+//     k5 += 1;
+// }
+// console.log(k5);
+
+// // While11
+// let n8 = parseInt(prompt("n8 ="));
+// let k6 = 0;
+// let yigindi = 0;
+// while(yigindi < n8){
+//     k6 += 1;
+//     yigindi += k6;
+// }
+// console.log("k =", k6);
+// console.log("Yig'indi =", yigindi);
+
+// // While12
+// let n9 = parseInt(prompt("n9 ="));
+// let k7 = 0;
+// let yigindi1 = 0;
+// while(yigindi1 + k7 + 1 <= n9){
+//     k7 += 1;
+//     yigindi1 += k7;
+// }
+// console.log("k =", k7);
+// console.log("Yig'indi =", yigindi1);
+
+// // While13
+// let a = parseFloat(prompt("a ="));
+// let k8 = 0;
+// let yigindi2 = 0.0;
+// while(yigindi2 < a){
+//     k8 += 1;
+//     yigindi2 += 1.0 / k8;
+// }
+// console.log("k =", k8);
+// console.log("Yig'indi =", yigindi2);
+
+// // While14
+// let a1 = parseFloat(prompt("a1 ="));
+// let k9 = 0;
+// let yigindi3 = 0.0;
+// while(yigindi3 + 1.0 / (k9 + 1) <= a1){
+//     k9 += 1;
+//     yigindi3 += 1.0 / k9;
+// }
+// console.log("k =", k9);
+// console.log("Yig'indi =", yigindi3);
